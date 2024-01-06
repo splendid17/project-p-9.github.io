@@ -1,0 +1,86 @@
+/* 
+   Основні стилі для вашого веб-сайту. 
+   Тут ви можете визначати стилі для різних елементів HTML.
+*/
+
+/* Загальні стилі для документа */
+body {
+    font-family: Arial, sans-serif; /* Встановлюємо шрифт для всього документа */
+    
+    /*background-color: #f4f4f4;  Задаємо колір фону для документа */
+    margin:  0;
+    padding: 0;
+    height: 100vh;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: 'center';
+    background-attachment: fixed;
+}
+
+/* Стилі для заголовків */
+h1 {
+    color: #000000; /* Колір тексту */
+    text-align: center; /* Вирівнювання тексту */
+}
+
+/* Стилі для абзаців */
+p {
+    font-size: 16px; /* Розмір шрифту */
+    line-height: 1.6; /* Міжрядковий інтервал */
+    margin-bottom: 20px; /* Відступ внизу абзацу */
+}
+
+.cntr {
+    display: flex;
+    justify-content: center; /* вирівнювання по горизонталі */
+    align-items: center; /* вирівнювання по вертикалі */
+    width: 100%;
+    height: 100%;
+} 
+
+
+
+.bec {
+background-color: rgb(195, 43, 226, 0.5);
+display: flex;
+justify-content: center; /* вирівнювання по горизонталі */
+align-items: center; /* вирівнювання по вертикалі */
+width: 1227px;
+height: 100%;
+box-shadow: inset 1px 1px 20px 5px #ffffff;
+border-radius: 10px;/* Радіус закруглення 10px для всіх кутів блока */
+
+
+}
+
+.lict {
+    background-color: rgb(236, 213, 183);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1104px;
+    height: 6820px;
+    border-radius: 10px;/* Радіус закруглення 10px для всіх кутів блока */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
